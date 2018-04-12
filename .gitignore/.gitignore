@@ -5,12 +5,12 @@ programa
 		inteiro k=3
 		para(inteiro l=0;l<k;l++){
 			para(inteiro c=0;c<k;c++){
-				se(c%==0){
-          escreva("O")
-        }
-        se(c%==0){
-          escreva"X"
-        }
+				se(l == c ou c+1 == k-1){
+          			escreva("O")
+        			}
+        			se(c%==0){
+          			escreva"X"
+        			}
 			}
 		}
 	}
